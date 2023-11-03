@@ -24,7 +24,7 @@ function Header() {
           <Container>
 
           <LinkContainer to="/"LinkContainer>
-        <Navbar.Brand>A.R.K</Navbar.Brand>
+        <Navbar.Brand>Q.A.S</Navbar.Brand>
         </LinkContainer>
 
         <Navbar.Toggle aria-controls="navbarScroll" />
