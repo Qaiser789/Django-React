@@ -5,11 +5,11 @@ export const productListReducers =(state={products:[]},action)=>{
 
     switch(action.type){
         case PRODUCT_LIST_REQUEST:
-            return {laoding:true,products:[]}
+            return {loading:true,products:[]}
         case PRODUCT_LIST_SUCCESS:
-            return {laoding:false,products:action.payload}
+            return {loading:false,products:action.payload}
         case PRODUCT_LIST_FAIL:
-            return {laoding:false,error: action.payload}
+            return {loading:false,error: action.payload}
 
         default:
             return state
